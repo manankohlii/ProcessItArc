@@ -1,0 +1,39 @@
+body
+{ 
+
+background-image: url("bg.jpg");
+/* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Ramabhadra', sans-serif;
+  }
+  h1{}
+ .loginbox
+{float:none;
+margin:15% auto;
+max-width: 700px;}
+.login
+{ background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+padding: 5%;
+height: 340px;}
+.registration
+{background: #82C394;
+	
+	padding: 5%;
+	height: 340px;
+}
+.form-control
+{
+
+}
+/*
+$servername = "localhost";
+$username = "id14720698_myloginportal";
+$password = "Samir@9831014758";
+$dbname = "id14720698_loginportal";
+
+*/

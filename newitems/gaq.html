@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get A Quote</title>
+    <link rel="stylesheet" href="gaq.css">
+</head>
+<body>
+    <section></section>
+    <script>
+        const colors = [
+
+        ]
+
+        function createSquare(){
+            const section = document.querySelector('section');
+            const square = document.createElement('span');
+            
+            var size = Math.random() * 50;
+            
+            square.style.width = 20 + size + 'px';
+            square.style.height = 20 + size + 'px';
+
+            square.style.top = Math.random()*innerHeight + 'px';
+            square.style.left = Math.random()*innerHeight + 'px';
+
+            section.appendChild(square);
+
+            setTimeout(() =>{
+                square.remove()
+            },5000)
+
+        }
+        setInterval(createSquare,150)
+    </script>
+    <div class="content">
+        <h1>Here's a Quote for you</h1>
+    </div>
+</body>
+</html>

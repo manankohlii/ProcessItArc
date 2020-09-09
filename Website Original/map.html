@@ -1,0 +1,38 @@
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>		<div class="cont"><center><div class="card1"></div></center></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZHVyZ2VzaDEyM3NkZWZncmJlbmciLCJhIjoiY2pnMWptY2JjMTQwcjJ3bnhwbTVkMHd6dSJ9.drdX9xK-516hfpv_UxZc_w';
+var map = new mapboxgl.Map({
+container: 'map',
+zoom: 15,
+center: [137.9150899566626, 36.25956997955441],
+style: 'mapbox://styles/mapbox/satellite-v9'
+});
+</script>
+<style>
+.cont{
+width:100%;
+height:600px;
+}
+
+.card1{
+width:50%;
+height:100%;
+float:left;
+
+position:center;
+
+background-color:black;
+opacity:0.4;
+position: absolute;
+
+}
+
+</style>
